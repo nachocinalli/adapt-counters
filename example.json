@@ -1,0 +1,65 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "counters",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Counters",
+  "displayTitle": "Counters",
+  "body": "<p>Counters is a presentation component that displays items with countup animation.</p>",
+  "instruction": "",
+  "_setCompletionOn": "allItems",
+  "_percentInviewVertical": 10,
+  "_transitionSpeed": 5000,
+  "_items": [
+    {
+      "title": "Heading 1",
+      "body": "<p>This is display text 1.</p>",
+      "_graphic": {
+        "src": "course/en/images/single-width.png",
+        "alt": "graphic 1"
+      },
+      "_countStart": 0,
+      "_countEnd": 1000,
+      "counterLabel": "",
+      "_classes": ""
+    },
+    {
+      "title": "Heading 2",
+      "body": "<p>This is display text 2.</p>",
+      "_graphic": {
+        "src": "course/en/images/single-width.png",
+        "alt": "graphic 2"
+      },
+      "_countStart": 0,
+      "_countEnd": 2000,
+      "counterLabel": "",
+      "_classes": ""
+    },
+    {
+      "title": "Heading 3",
+      "body": "<p>This is display text 3.</p>",
+      "_graphic": {
+        "src": "course/en/images/single-width.png",
+        "alt": "graphic 3"
+      },
+      "_countStart": 0,
+      "_countEnd": 3000,
+      "counterLabel": "",
+      "_classes": ""
+    },
+    {
+      "title": "Heading 4",
+      "body": "<p>This is display text 4.</p>",
+      "_graphic": {
+        "src": "course/en/images/single-width.png",
+        "alt": "graphic 4"
+      },
+      "_countStart": 0,
+      "_countEnd": 4000,
+      "counterLabel": "",
+      "_classes": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.counters {
+  &__widget {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    @media (min-width: @device-width-large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  &__item {
+    text-align: center;
+  }
+  &__count {
+    font-size: 2rem;
+  }
+}
