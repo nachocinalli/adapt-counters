@@ -1,5 +1,5 @@
 {
-  "$anchor": "cards-component",
+  "$anchor": "counters-component",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "$merge": {
@@ -36,7 +36,7 @@
         "_percentInviewVertical": {
           "type": "number",
           "title": "Percent in view",
-          "description": "Controls what percentage of the card items height needs to be in the viewport in order for the items to animate",
+          "description": "Controls what percentage of the items height needs to be in the viewport in order for the items to animate",
           "default": 10
         },
         "_transitionSpeed": {

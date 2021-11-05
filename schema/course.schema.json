@@ -1,5 +1,5 @@
 {
-  "$anchor": "cards-course",
+  "$anchor": "counters-course",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "$patch": {
@@ -12,7 +12,7 @@
           "type": "object",
           "default": {},
           "properties": {
-            "_cards": {
+            "_counters": {
               "type": "object",
               "default": {},
               "properties": {

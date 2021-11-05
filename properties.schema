@@ -63,7 +63,7 @@
 			"validators": [
 				"number"
 			],
-			"help": "Controls what percentage of the card items height needs to be in the viewport in order for the items to animate"
+			"help": "Controls what percentage of the items height needs to be in the viewport in order for the items to animate"
 		},
 		"_transitionSpeed": {
 			"type": "number",
