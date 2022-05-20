@@ -44,6 +44,11 @@
           "title": "Transition speed",
           "default": 200
         },
+        "_columns": {
+          "type": "number",
+          "title": "Columns",
+          "default": 0
+        },
         "_items": {
           "type": "array",
           "title": "Items",

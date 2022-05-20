@@ -1,11 +1,9 @@
 .counters {
   &__widget {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-    @media (min-width: @device-width-large) {
-      grid-template-columns: repeat(4, 1fr);
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
   }
   &__item {
     text-align: center;
