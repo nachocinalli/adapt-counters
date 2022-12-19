@@ -7,7 +7,7 @@ export default function Counters (props) {
   const hasColumns = _columns > 1;
   return (
 
-    <div className="component__inner cards__inner">
+    <div className="component__inner counters__inner">
 
       <templates.header {...props} />
 
