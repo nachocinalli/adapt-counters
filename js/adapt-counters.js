@@ -1,8 +1,8 @@
-import Adapt from 'core/js/adapt';
+import components from 'core/js/components';
 import CountersModel from './CountersModel';
 import CountersView from './CountersView';
 
-export default Adapt.register('counters', {
+export default components.register('counters', {
   model: CountersModel,
   view: CountersView
 });
