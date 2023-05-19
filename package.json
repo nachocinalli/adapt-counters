@@ -1,0 +1,21 @@
+{
+  "name": "adapt-counters",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nachocinalli/adapt-counters.git"
+  },
+  "framework": ">=5.31.4",
+  "version": "1.2.0",
+  "homepage": "https://github.com/nachocinalli/adapt-counters",
+  "issues": "https://github.com/nachocinalli/adapt-counters/issues",
+  "component": "counters",
+  "displayName": "Counters",
+  "targetAttribute": "_counters",
+  "description": "A counters component.",
+  "main": "/js/adapt-counters.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}
