@@ -12,7 +12,12 @@
   "_setCompletionOn": "allItems",
   "_percentInviewVertical": 10,
   "_transitionSpeed": 5000,
-  "_columns": 4,
+  "_columns": {
+    "small": 0,
+    "medium": 2,
+    "large": 4,
+    "xlarge": 4
+  },
   "_items": [
     {
       "title": "Heading 1",
