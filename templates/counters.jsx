@@ -1,18 +1,19 @@
-import Adapt from 'core/js/adapt';
+import device from 'core/js/device';
 import React from 'react';
 import { html, classes, compile, templates } from 'core/js/reactHelpers';
 
 export default function Counters (props) {
   const { _columns } = props;
-  const hasColumns = _columns > 1;
+  const screenSize = device.screenSize;
+  const hasColumns = _columns[screenSize] > 1;
   return (
 
-    <div className="component__inner counters__inner">
+    <div className="component__inner cards__inner">
 
       <templates.header {...props} />
 
       <div className={classes([
-        'component__widget', 'counters__widget', hasColumns && 'has-columns', hasColumns && `cols-${_columns}`])}>
+        'component__widget', 'counters__widget', hasColumns && 'has-columns', hasColumns && `cols-${_columns[screenSize]}`])}>
 
         {props._items.map(({ title, body, _graphic, _countStart, counterLabel, _classes, _index, _isVisited, _isActive, _isAnimated }) =>
           <div
@@ -27,7 +28,7 @@ export default function Counters (props) {
             ])}
             key={_index}
             data-index={_index}
-            style={(hasColumns && Adapt.device.screenSize === 'large' && { width: `${100 / _columns}%` }) || null }
+            style={(hasColumns && { width: `${100 / _columns[screenSize]}%` }) || null }
           >
             <div className="counters__item-container">
               { _graphic.src &&
